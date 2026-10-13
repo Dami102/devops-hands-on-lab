@@ -12,7 +12,7 @@ function handleRequest(request, response) {
   }
   if (request.url === "/") {
     response.writeHead(200, { "content-type": "text/plain; charset=utf-8" });
-    response.end("Hello from the DevOps lab!\n");
+    response.end("Hello from my first protected workflow!.!\n");
     return;
   }
   response.writeHead(404, { "content-type": "text/plain; charset=utf-8" });
