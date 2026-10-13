@@ -22,7 +22,7 @@ function runRequest(url) {
 test("home page returns the greeting", () => {
   const r = runRequest("/");
   assert.equal(r.status, 200);
-  assert.equal(r.body, "Hello from the DevOps lab!\n");
+  assert.equal(r.body, "Hello from my first protected workflow!.!\n");
 });
 
 test("health endpoint returns OK", () => {
